@@ -81,3 +81,8 @@ C:\Users\Ismaila ba\HeritageC#\Heritage\obj\Debug\Heritage.csproj.CoreCompileInp
 C:\Users\Ismaila ba\HeritageC#\Heritage\obj\Debug\Heritage.csproj.CopyComplete
 C:\Users\Ismaila ba\HeritageC#\Heritage\obj\Debug\Heritage.dll
 C:\Users\Ismaila ba\HeritageC#\Heritage\obj\Debug\Heritage.pdb
+C:\Users\Ismaila ba\HeritageC#\Heritage\bin\EntityFramework.dll
+C:\Users\Ismaila ba\HeritageC#\Heritage\bin\EntityFramework.SqlServer.dll
+C:\Users\Ismaila ba\HeritageC#\Heritage\bin\EntityFramework.xml
+C:\Users\Ismaila ba\HeritageC#\Heritage\bin\EntityFramework.SqlServer.xml
+C:\Users\Ismaila ba\HeritageC#\Heritage\bin\fr\EntityFramework.resources.dll

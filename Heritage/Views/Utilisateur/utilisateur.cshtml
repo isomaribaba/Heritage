@@ -8,18 +8,17 @@
 }
 
 <h2>utilisateur</h2>
-@if(ViewBag.Status != null && Convert.ToBoolean(ViewBag.Status)
+if(ViewBag.Status != null && Convert.ToBoolean(ViewBag.Status)
   {
     if(ViewBag.Message != null)
      {
-<div class="alert alert-success">
-    <strong>Succer</strong>@ViewBag.Message
-</div>
+       <div class="alert alert-success">
+           <strong>Succer</strong>@ViewBag.Message
+       </div>
      }
   }
   else
   {
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -84,10 +83,8 @@
 
   }
 
-
-
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Utilisateur", "Utilisateur")
 </div>
 
 @section Scripts {

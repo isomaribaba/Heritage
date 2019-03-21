@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HeritageModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="UtilisateurId" />
+    </Key>
+    <Property Name="UtilisateurId" Type="Int32" Nullable="false" />
+    <Property Name="Nom" Type="Binary" MaxLength="50" FixedLength="false" Nullable="false" />
+    <Property Name="Prenom" Type="Binary" MaxLength="50" FixedLength="false" Nullable="false" />
+    <Property Name="Email" Type="Binary" MaxLength="50" FixedLength="false" Nullable="false" />
+    <Property Name="Designation" Type="Binary" MaxLength="50" FixedLength="false" Nullable="false" />
+    <Property Name="TypeUtilisateur" Type="Binary" MaxLength="50" FixedLength="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="HeritageEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Utilisateur" EntityType="Self.Utilisateur" />
+  </EntityContainer>
+</Schema>
