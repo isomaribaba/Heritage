@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Bd_Web_ASPModelStoreContainer" CdmEntityContainer="Bd_Web_ASPEntities">
+    <EntitySetMapping Name="AYANTDROITs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.AYANTDROIT">
+        <MappingFragment StoreEntitySet="AYANTDROIT">
+          <ScalarProperty Name="ADRID" ColumnName="ADRID" />
+          <ScalarProperty Name="NOMENCLATUREID" ColumnName="NOMENCLATUREID" />
+          <ScalarProperty Name="UTILISATEURID" ColumnName="UTILISATEURID" />
+          <ScalarProperty Name="DESIGNATION" ColumnName="DESIGNATION" />
+          <ScalarProperty Name="IMAGEADR" ColumnName="IMAGEADR" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="DATECREATION" ColumnName="DATECREATION" />
+          <ScalarProperty Name="TYPEHERITIER" ColumnName="TYPEHERITIER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BIENS">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.BIEN">
+        <MappingFragment StoreEntitySet="BIENS">
+          <ScalarProperty Name="BIENID" ColumnName="BIENID" />
+          <ScalarProperty Name="HERITAGEID" ColumnName="HERITAGEID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="EVALUATEUR" ColumnName="EVALUATEUR" />
+          <ScalarProperty Name="AFFECTATION" ColumnName="AFFECTATION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ECOLEs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.ECOLE">
+        <MappingFragment StoreEntitySet="ECOLE">
+          <ScalarProperty Name="ECOLEID" ColumnName="ECOLEID" />
+          <ScalarProperty Name="HERITAGEID" ColumnName="HERITAGEID" />
+          <ScalarProperty Name="REGLEID" ColumnName="REGLEID" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HERITAGEs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.HERITAGE">
+        <MappingFragment StoreEntitySet="HERITAGE">
+          <ScalarProperty Name="HERITAGEID" ColumnName="HERITAGEID" />
+          <ScalarProperty Name="NOMENCLATUREID" ColumnName="NOMENCLATUREID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="DATE_DECES" ColumnName="DATE_DECES" />
+          <ScalarProperty Name="DATE_HERITAGE" ColumnName="DATE_HERITAGE" />
+          <ScalarProperty Name="ECOLEID" ColumnName="ECOLEID" />
+          <ScalarProperty Name="MONTANT" ColumnName="MONTANT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HERITIERs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.HERITIER">
+        <MappingFragment StoreEntitySet="HERITIER">
+          <ScalarProperty Name="NOMENCLATUREID" ColumnName="NOMENCLATUREID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="ILLLUSTRATION" ColumnName="ILLLUSTRATION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="login1" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGLEs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.REGLE">
+        <MappingFragment StoreEntitySet="REGLE">
+          <ScalarProperty Name="REGLEID" ColumnName="REGLEID" />
+          <ScalarProperty Name="SOURCEID" ColumnName="SOURCEID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="ECOLES" ColumnName="ECOLES" />
+          <ScalarProperty Name="COMMENTAIRE" ColumnName="COMMENTAIRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SOURCEs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.SOURCE">
+        <MappingFragment StoreEntitySet="SOURCE">
+          <ScalarProperty Name="SOURCEID" ColumnName="SOURCEID" />
+          <ScalarProperty Name="DESIGNATION" ColumnName="DESIGNATION" />
+          <ScalarProperty Name="HIERARCHIEID" ColumnName="HIERARCHIEID" />
+          <ScalarProperty Name="COMMENTAIRE" ColumnName="COMMENTAIRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UTILISATEURs">
+      <EntityTypeMapping TypeName="Bd_Web_ASPModel.UTILISATEUR">
+        <MappingFragment StoreEntitySet="UTILISATEUR">
+          <ScalarProperty Name="UTILISATEURID" ColumnName="UTILISATEURID" />
+          <ScalarProperty Name="DESIGNATION" ColumnName="DESIGNATION" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="TYPEUTILISATEUR" ColumnName="TYPEUTILISATEUR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

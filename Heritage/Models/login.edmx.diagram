@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a0f3b18f8ec04416a2aabef0d557ce3b" Name="Diagram1">
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.AYANTDROIT" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.BIEN" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.ECOLE" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.HERITAGE" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.HERITIER" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.Login" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.REGLE" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.SOURCE" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bd_Web_ASPModel.UTILISATEUR" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_ASSOCIER" ManuallyRouted="false" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_ETRE" ManuallyRouted="false" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_AVOIR" ManuallyRouted="false" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_APPLIQUER" ManuallyRouted="false" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_REFERER" ManuallyRouted="false" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_HERITER" ManuallyRouted="false" />
+        <AssociationConnector Association="Bd_Web_ASPModel.FK_UTILISER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
